@@ -62,7 +62,7 @@ while True:
         if validate_email(user_email):
             print(user_email)
         user_name = input("And what might be your name?")
-        date_input = input("When would you like the appointment? (e.g. Next Monday, 25th Aug) ")
+        date_input = input("When would you like the appointment? ")
         date_parsed = parse_relative_date(date_input)
         print(date_parsed)
 
